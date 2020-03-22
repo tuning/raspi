@@ -1,13 +1,14 @@
-# raspi
+## raspi
+
 RaspberryPi projects
 
-## infrastructures
+### infrastructures to build
 
 - webserver and database on raspi
 
 - check data anywhere at home
 
-## project list
+### project to-do list
 
 1. face detection and tracking
 
@@ -27,4 +28,6 @@ RaspberryPi projects
 	
 	- new face alarm in the living room
 
-3. robotic toy cars that follows its master
+3. robotic toy cars that follows its human master
+
+
