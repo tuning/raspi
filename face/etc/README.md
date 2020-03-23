@@ -3,9 +3,3 @@
 ### list
 
 - frontal face
-
-- eyes
-
-- eyes with eye-glasses
-
-- smiles
