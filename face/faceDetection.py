@@ -15,7 +15,7 @@ import cv2
 faceDetector = cv2.CascadeClassifier('./etc/haarcascade_frontalface_default.xml')
 boxColor = (0,128,255)
 faceImageSize = (300,300)
-minFaceSize = (50,50)
+minFaceSize = (100,100)
 maxFaceSize = (300,300)
 
 # first camera in the system
@@ -69,9 +69,10 @@ while True:
         cv2.rectangle(iframe, (faceBox[0],faceBox[1]),
                       (faceBox[0]+faceBox[2],faceBox[1]+faceBox[3]),boxColor, 2)
         cv2.imshow('Face detector',iframe)
-        key = cv2.waitKey(1)&0xFF
-        if key == ord('q'):
-            break
+        
+    key = cv2.waitKey(1)&0xFF
+    if key == ord('q'):
+        break
         
 cap.release()
 cv2.destroyAllWindows()
