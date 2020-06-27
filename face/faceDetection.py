@@ -62,7 +62,7 @@ while True:
         # save face image to file after scaling
         faceImage = iframeGray[y:y+h,x:x+w]
         faceImage = cv2.resize(faceImage,faceImageSize,fx=0,fy=0,interpolation=cv2.INTER_CUBIC)
-        if (np.mod(frameCounter,10)==1):
+        if (np.mod(frameCounter,2)==1):
             cv2.imwrite(faceImageFileName,faceImage)
         
         # mark the face in the frame and display the frame

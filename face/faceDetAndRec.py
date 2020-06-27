@@ -19,7 +19,7 @@ maxFaceSize = (300,300)
 
 faceRecognizer = cv2.face.createLBPHFaceRecognizer()
 faceRecognizer.load('./faces/model/faceRecModel.yml')
-labels = {'1':'fangfang','2':'tutu'}
+labels = {'1':'fangfang','2':'tutu','3':'yaoyao','4':'zhangzhang','5':'nainai'}
 textFont = cv2.FONT_HERSHEY_PLAIN
 textSize = 2
 textColor = (0,255,0)
